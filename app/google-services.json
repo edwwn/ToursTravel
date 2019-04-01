@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1089659999489",
+    "firebase_url": "https://tours-and-travel-6adda.firebaseio.com",
+    "project_id": "tours-and-travel-6adda",
+    "storage_bucket": "tours-and-travel-6adda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089659999489:android:8012d57bc2cc3c38",
+        "android_client_info": {
+          "package_name": "com.group.tourstravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089659999489-5it77u0024f95u9cfopadrbqm72sm9em.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.group.tourstravel",
+            "certificate_hash": "8820c7221be4b6554768317b3f923ab43c086b19"
+          }
+        },
+        {
+          "client_id": "1089659999489-sdpthr6a63iom34k1bodfa1qd7bh1j7n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALMK78xxf8qMwkZE64h8UfevoiqtApKnE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089659999489-sdpthr6a63iom34k1bodfa1qd7bh1j7n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

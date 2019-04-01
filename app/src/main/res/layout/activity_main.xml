@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayoutStart"
+            android:layout_width="556dp"
+            android:layout_height="672dp"
+            android:background="@color/editTextBG"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/logoTours"
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="400dp"
+                android:src="@drawable/logo" />
+            <ImageView
+                android:layout_marginLeft="100dp"
+                android:src="@drawable/trylogo"
+                android:layout_marginTop="-400dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp">
+
+
+                <Button
+                    android:id="@+id/LoginStart"
+                    android:layout_width="150dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@color/colorPrimary"
+                    android:fontFamily="sans-serif-black"
+                    android:text="LOGIN"
+                    android:textColor="@color/textOfButtons"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/SignUpStart"
+                    android:layout_width="150dp"
+                    android:layout_height="70dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="40dp"
+                    android:layout_toRightOf="@id/LoginStart"
+                    android:background="@color/colorPrimary"
+                    android:fontFamily="sans-serif-black"
+                    android:text="SIGN UP"
+                    android:textColor="@color/textOfButtons"
+                    android:textSize="30dp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#d4a656</color>
+    <color name="colorPrimaryDark">#E5B009</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="facebookBlue">#3f5996</color>
+    <color name="twitterBlue">#29C5F6</color>
+    <color name="googleRed">#D03E2F</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="editTextBG">#A09D9D</color>
+    <color name="backApps">#6FA55F</color>
+    <color name="dashTextColour">#3A50CC</color>
+
+    <color name="colourText">#6E6E6E</color>
+    <color name="textOfBack">#330404</color>
+    <color name="textOfButtons">#673AB7</color>
+    <color name="ButtonBuyBackground">#4CAF50</color>
+
+</resources>

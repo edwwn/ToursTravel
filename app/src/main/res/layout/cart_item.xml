@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/cartImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textSize="16sp"/>
+    
+    <TextView
+        android:id="@+id/ToursName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_weight="1"
+        android:text="Tours Name"
+        android:layout_toRightOf="@id/cartImage"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/Quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_weight="1"
+        android:layout_below="@id/ToursName"
+        android:text="Quantity"
+        android:layout_toRightOf="@id/cartImage"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/PRICE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_weight="1"
+        android:layout_below="@id/Quantity"
+        android:text="PRICE"
+        android:layout_toRightOf="@id/cartImage"
+        android:textSize="15sp"/>
+
+
+
+
+</RelativeLayout>

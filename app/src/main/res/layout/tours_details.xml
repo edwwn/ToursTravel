@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/details"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/travels_Image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:background="@android:color/transparent"
+            />
+
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textSize="15sp"
+            android:text="ToursTravel Rate"
+            android:layout_marginTop="33dp"
+            android:layout_below="@id/travels_Image"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+
+            />
+
+        <RatingBar
+            android:id="@+id/rating_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            style="@style/CustomRatingLevel"
+            android:layout_below="@id/description"
+            android:isIndicator="true" />
+
+        <TableLayout
+            android:id="@+id/Price_Linear_Layout"
+            android:layout_width="fill_parent"
+            android:layout_below="@id/rating_level"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="20sp"
+                android:textAppearance="?android:attr/textAppearance"
+                android:text="PRICE"/>
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="PRICE"
+                android:textSize="20sp"
+                />
+
+        </TableLayout>
+
+        <LinearLayout
+            android:id="@+id/quantityLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/Price_Linear_Layout"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/quantityLabel"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="Quantity"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:id="@+id/decrementButton"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="null"
+                    android:onClick="decrement"
+                    android:textSize="20sp"
+                    android:text="-"
+                    />
+                <TextView
+                    android:id="@+id/QuantityTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="8dp"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"/>
+
+                <Button
+                    android:id="@+id/incrementButton"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="null"
+                    android:onClick="increment"
+                    android:textSize="22sp"
+                    android:text="+"
+                    />
+
+            </LinearLayout>
+            
+            <LinearLayout
+
+                android:id="@+id/QuantityTotal"
+                android:layout_below="@id/quantityLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                >
+
+                <TextView
+                    android:id="@+id/total"
+                    style="@style/FormTextStyle"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="22sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="TOTAL"/>
+                
+                <TextView
+                    android:id="@+id/cost_text_view"
+                    style="@style/FormTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/cartButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/QuantityTotal"
+                android:layout_gravity="center"
+                android:onClick="addToCart"
+                android:text="ADD TO CART"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

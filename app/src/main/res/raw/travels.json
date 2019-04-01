@@ -1,0 +1,46 @@
+{
+  "travelsIn":[
+    {
+      "toursName": "Serengeti One",
+      "Description": "Serengeti one Offers the Best of tours and Travels",
+      "imageUrl": "serengetiOne.png",
+      "price": 100.00,
+      "travelRatings": 5
+    },
+    {
+      "toursName": "Serengeti Two",
+      "Description": "Serengeti two Offers the Best of tours and Travels",
+      "imageUrl": "serengetiTwo.png",
+      "price": 75.00,
+      "travelRatings": 5
+    },
+    {
+      "toursName": "Serengeti Three",
+      "Description": "Serengeti three Offers the Best of tours and Travels",
+      "imageUrl": "serengetiThree.png",
+      "price": 80.00,
+      "travelRatings": 5
+    },
+    {
+      "toursName": "Maasai One",
+      "Description": "Maasai One Offers the Best of tours and Travels",
+      "imageUrl": "maasaiOne.png",
+      "price": 80.00,
+      "travelRatings": 5
+    },
+    {
+      "toursName": "Maasai Two",
+      "Description": "Maasai Two Offers the Best of tours and Travels",
+      "imageUrl": "maasaiTwo.png",
+      "price": 200.00,
+      "travelRatings": 5
+    },
+    {
+      "toursName": "Maasai Three",
+      "Description": "Maasai Three Offers the Best of tours and Travels",
+      "imageUrl": "maasaiThree.png",
+      "price": 200.00,
+      "travelRatings": 5
+    }
+  ]
+}
